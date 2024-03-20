@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://artem-stack.github.io/blist/'
 languageCode = 'en-us'
 title = 'Blist'
 theme = 'Blist'
