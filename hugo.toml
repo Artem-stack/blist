@@ -1,0 +1,37 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Blist'
+theme = 'Blist'
+
+# Automatically generate robots.txt
+enableRobotsTXT = true
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 1
+    pre = ""
+    post = "<span class='menu-icon' data-feather='info'></span>"
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/posts/"
+    weight = 2
+    pre = ""
+    post = "<span class='menu-icon' data-feather='book'></span>"
+
+  [[menu.main]]
+    identifier = "github"
+    url = "https://github.com"
+    weight = 3
+    pre = "<span class='menu-icon' data-feather='github'></span>"
+
+  # Turn on the dark mode switch in the header
+  [params.darkModeToggle]
+  enable = true
+
+  # Customizing the rise color
+  ascentColor = "bg-blue-200"
