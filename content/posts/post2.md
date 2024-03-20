@@ -1,5 +1,5 @@
-+++
-title = 'Post2'
-date = 2024-03-20T11:47:44+02:00
-draft = true
-+++
+---
+title: "Назва"
+date: 2024-03-20T10:00:00Z
+draft: false
+---
